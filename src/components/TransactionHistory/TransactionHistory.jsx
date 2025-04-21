@@ -1,4 +1,4 @@
-import TransactionItem from './TransactionItem/TransactionItem';
+import TransactionItem from '../TransactionItem/TransactionItem';
 import styless from './TransactionHistory.module.css';
 
 function TransactionHistory({ items }) {
