@@ -1,0 +1,71 @@
+.container {
+  font-family: Arial, sans-serif;
+  letter-spacing: 0.02em;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  gap: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.image {
+  background-color: #333;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.location {
+  color: gray;
+}
+
+.name {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.tag {
+  font-size: 16px;
+  color: gray;
+  margin: 10px 0;
+}
+
+.stats {
+  display: flex;
+  width: 100%;
+  background-color: #ccc;
+  justify-content: space-around;
+  border-top: 2px solid #888;
+}
+
+.statsItem {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  padding: 10px;
+  border-right: 2px solid #888;
+}
+
+.statsItemLabel {
+  font-size: 16px;
+}
+
+.statsItemQuantity {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.statsItem:last-child {
+  border-right: none;
+}
